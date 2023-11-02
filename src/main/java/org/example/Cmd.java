@@ -38,7 +38,7 @@ public class Cmd {
             if (code > 96 && code < 123) {
                 code = code - 32;
             }
-            robot.delay(40);
+            robot.delay(400);
             robot.keyPress(code);
             robot.keyRelease(code);
         }
@@ -46,7 +46,7 @@ public class Cmd {
 
     // Hàm gõ phím
     private static void typeKey(Robot robot, int keyCode) {
-        robot.delay(40);
+        robot.delay(400);
         robot.keyPress(keyCode);
         robot.keyRelease(keyCode);
     }
